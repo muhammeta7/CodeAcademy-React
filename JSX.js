@@ -109,3 +109,36 @@ ReactDOM.render(
   myList, 
   document.getElementById('app')
 );
+
+// class vs className
+// When JSX is rendered, JSX className attributes are automatically rendered as class attributes.
+
+
+// Self-Closing Tags
+const profile = (
+  <div>
+    <h1>I AM JENKINS</h1>
+    <img src="images/jenkins.png" />
+    <article>
+      I LIKE TO SIT
+      <br />
+      JENKINS IS MY NAME
+      <br />
+      THANKS HA LOT
+    </article>
+  </div>
+);
+
+// JavaScript In Your JSX In Your JavaScript
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// Write code here:
+ReactDOM.render(<h1>2+3</h1>, document.getElementById('app'));
+
+// Curly Braces in JSX
+// To execute JS simply use curly brackets
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(<h1> {2+3} </h1>, document.getElementById('app'));
