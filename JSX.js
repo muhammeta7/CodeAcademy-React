@@ -92,3 +92,20 @@ ReactDOM.render(<h1>Render me!</h1>, document.getElementById('container'));
   // </body>
 
 // </html>
+
+// Passing a Variable to ReactDOM.render()
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// Code
+const myList = (
+  <ul>
+    <li>Nothing</li>
+    <li>Something</li>
+  </ul>
+);
+
+ReactDOM.render(
+  myList, 
+  document.getElementById('app')
+);
