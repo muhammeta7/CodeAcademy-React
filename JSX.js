@@ -52,3 +52,43 @@ const blog = (
     </article>
   </div>
 );
+
+// Rendering JSX
+// ReactDOM.render(<h1>Hello world</h1>, 
+// document.getElementById('app'));
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// Copy code here:
+ReactDOM.render(<h1>Hello world</h1>, document.getElementById('app'));
+
+// ReactDOM.render()
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// Code
+ReactDOM.render(<h1>Render me!</h1>, document.getElementById('app'));
+
+// ReactDOM.render() II
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// Write code here:
+ReactDOM.render(<h1>Render me!</h1>, document.getElementById('container'));
+
+// HTML
+// <!DOCTYPE html>
+// <html lang="en">
+// <head>
+//   <meta charset="utf-8">
+//   <link rel="stylesheet" href="/styles.css">
+//   <title>Learn ReactJS</title>
+// </head>
+
+  // <body>
+  //   <span id="container"></span>
+  //   <script src="https://s3.amazonaws.com/codecademy-content/courses/React/react-course-bundle.min.js"></script>
+  //   <script src="/app.compiled.js"></script>
+  // </body>
+
+// </html>
